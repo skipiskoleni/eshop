@@ -18,8 +18,6 @@ import org.springframework.security.web.SecurityFilterChain;
 @EnableWebSecurity
 public class SecurityConfiguration {
 
-    AuthenticationManager authenticationManager;
-
     @Autowired
     UserDetailsService userDetailsService;
 
